@@ -53,7 +53,6 @@ class _LearnScreenState extends State<LearnScreen> {
 
   void _completeLesson(Lesson completedLesson) {
     int index = lessons[selectedCategory]!.indexOf(completedLesson);
-    Lesson nextLesson = lessons[selectedCategory]![index+1];
 
     setState(() {
       lessons[selectedCategory]![index].isCompleted = true;
@@ -61,9 +60,14 @@ class _LearnScreenState extends State<LearnScreen> {
       if (index + 1 < lessons[selectedCategory]!.length) {
         completedLesson.isCompleted = true;
         completedLesson.status = LessonStatus.completed;
+        Lesson nextLesson = lessons[selectedCategory]![index+1];
         if (nextLesson.isCompleted == false) {
           nextLesson.status = LessonStatus.unlocked;
         }
+      }
+      else if (index + 1 == lessons[selectedCategory]!.length){
+        completedLesson.isCompleted = true;
+        completedLesson.status = LessonStatus.completed;
       }
     });
 

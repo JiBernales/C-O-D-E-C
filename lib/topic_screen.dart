@@ -142,30 +142,54 @@ class TopicPage extends StatelessWidget {
           ),
           SizedBox(height: 20),
           Expanded(
-            child: SingleChildScrollView(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  GestureDetector(
-                    child: Text(
-                      topic.content,
-                      style: TextStyle(color: Colors.black, fontSize: 18),
-                    ),
-                  ),
-                  SizedBox(height: 20),
-                  if (topic.imageUrl != null)
-                    Center(
-                      child: InteractiveViewer(
-                        child: Image.asset(
-                            topic.imageUrl!,
+            child: Scrollbar(
+              interactive: true,
+              radius: Radius.circular(8),
+              thickness: 2.0,
+              child: SingleChildScrollView(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      GestureDetector(
+                        child: Text(
+                          topic.content,
+                          style: TextStyle(color: Colors.black, fontSize: 18),
                         ),
-                        minScale: 0.5,
-                        maxScale: 5.0,
-                      )
-                    ),
-                ],
-              ),
-            ),
+                      ),
+                      SizedBox(height: 20),
+                      if (topic.imageUrl != null)
+                        Center(
+                          child: Stack(
+                            alignment: Alignment.topRight,
+                            children: [
+                              InteractiveViewer(
+                                child: Image.asset(topic.imageUrl!),
+                                minScale: 0.5,
+                                maxScale: 5.0,
+                              ),
+                              Container(
+                                margin: const EdgeInsets.all(8),
+                                padding: const EdgeInsets.all(4),
+                                decoration: BoxDecoration(
+                                  color: Colors.black.withOpacity(0.1),
+                                  borderRadius: BorderRadius.circular(20),
+                                ),
+                                child: Icon(
+                                  Icons.zoom_in,
+                                  color: Colors.white.withOpacity(0.9),
+                                  size: 20,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                    ],
+                  ),
+                ),
+            )
+          ),
+          SizedBox(
+            height: MediaQuery.of(context).size.height * 0.05,
           ),
           Align(
             alignment: Alignment.bottomRight,

@@ -341,55 +341,71 @@ class _ReviewQuizState extends State<ReviewQuiz> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          SingleChildScrollView(
-              child: GestureDetector(
-                child: Text(
-                  widget.quiz.question,
-                  style: Theme.of(context).textTheme.headlineMedium,
+          Text(
+            widget.quiz.question,
+            style: Theme.of(context).textTheme.headlineMedium,
+          ),
+          Expanded(
+              child: Scrollbar(
+                interactive: true,
+                radius: Radius.circular(8),
+                thickness: 2.0,
+                child: SingleChildScrollView(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      SizedBox(
+                        height: MediaQuery.of(context).size.height * 0.05,
+                      ),
+                      GestureDetector(
+                        child:
+                        Column(
+                          children: shuffledOptions.map((option) {
+                            return Padding(
+                              padding: const EdgeInsets.symmetric(vertical: 8.0),
+                              child: ElevatedButton(
+                                style: ElevatedButton.styleFrom(
+                                    minimumSize: Size(double.infinity, 48),
+                                    side: BorderSide(
+                                      color: answered
+                                          ? (option == selectedOption && isCorrect) ? Colors.green.shade500 // Correct answer selected
+                                          : (option == selectedOption) ? Colors.red.shade700 // Incorrect answer selected
+                                          : (option == widget.quiz.options[widget.quiz.correctOptionIndex])
+                                          ? Colors.green.shade500 // Correct option (not selected)
+                                          : Colors.red.shade900 // Wrong option (not selected)
+                                          : Colors.black, // Default
+                                      width: answered
+                                          ? (option == widget.quiz.options[widget.quiz.correctOptionIndex])
+                                          ? 7.5 // Correct answer
+                                          : (option == selectedOption)
+                                          ? 5.0 // Correct option (not selected)
+                                          : 2.5 // Wrong option (not selected)
+                                          : 5.0,// Default
+                                    )
+                                ),
+                                onPressed: answered ? null : () {
+                                  setState(() {
+                                    userAnswer = option;
+                                    selectedOption = userAnswer;
+                                    answered = true;
+                                    _checkAnswer(userAnswer);
+                                  });
+                                },
+                                child: Text(option, style: TextStyle(fontSize: 18, color: Colors.black)),
+                              ),
+                            );
+                          }).toList(),
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
               ),
-            ),
-          Spacer(),
-          Column(
-            children: shuffledOptions.map((option) {
-              return Padding(
-                padding: const EdgeInsets.symmetric(vertical: 8.0),
-                child: ElevatedButton(
-                  style: ElevatedButton.styleFrom(
-                      minimumSize: Size(double.infinity, 48),
-                      side: BorderSide(
-                        color: answered
-                            ? (option == selectedOption && isCorrect) ? Colors.green.shade500 // Correct answer selected
-                            : (option == selectedOption) ? Colors.red.shade700 // Incorrect answer selected
-                            : (option == widget.quiz.options[widget.quiz.correctOptionIndex])
-                            ? Colors.green.shade500 // Correct option (not selected)
-                            : Colors.red.shade900 // Wrong option (not selected)
-                            : Colors.black, // Default
-                        width: answered
-                            ? (option == widget.quiz.options[widget.quiz.correctOptionIndex])
-                            ? 7.5 // Correct answer
-                            : (option == selectedOption)
-                            ? 5.0 // Correct option (not selected)
-                            : 2.5 // Wrong option (not selected)
-                            : 5.0,// Default
-                      )
-                  ),
-                  onPressed: answered ? null : () {
-                    setState(() {
-                      userAnswer = option;
-                      selectedOption = userAnswer;
-                      answered = true;
-                      _checkAnswer(userAnswer);
-                    });
-                  },
-                  child: Text(option, style: TextStyle(fontSize: 18, color: Colors.black)),
-                ),
-              );
-            }).toList(),
           ),
-          Spacer(flex: 3),
+          SizedBox(
+            height: MediaQuery.of(context).size.height * 0.05,
+          ),
           if (answered) ...[
-            Expanded(child:
             Align(
               child: Text(
                 isCorrect ? 'Correct!!!' : 'Incorrect...',
@@ -400,9 +416,7 @@ class _ReviewQuizState extends State<ReviewQuiz> {
                 textAlign: TextAlign.center,
               ),
             ),
-            ),
           ],
-          Spacer(),
           ElevatedButton(
             style: ElevatedButton.styleFrom(
               minimumSize: Size(double.infinity, 48),

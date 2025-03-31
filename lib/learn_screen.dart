@@ -84,7 +84,7 @@ class _LearnScreenState extends State<LearnScreen> {
         child: Column(
           children: [
             SizedBox(
-              height: MediaQuery.of(context).size.height * 0.08,
+              height: MediaQuery.of(context).size.height * 0.05,
             ),
             Text(
               'Learn C Lessons',

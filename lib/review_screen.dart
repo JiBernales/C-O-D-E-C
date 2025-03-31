@@ -32,7 +32,7 @@ class _ReviewScreenState extends State<ReviewScreen> with SingleTickerProviderSt
         child: Column(
           children: [
             SizedBox(
-              height: MediaQuery.of(context).size.height * 0.08,
+              height: MediaQuery.of(context).size.height * 0.05,
             ),
             Text(
               'Review C Lessons',

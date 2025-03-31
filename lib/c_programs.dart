@@ -5,7 +5,7 @@ final List<CSharpTemplate> cSharpTemplates = [
     title: 'Hello World - Standard Output',
     code: 'using System;\n\nclass Program {\n  static void Main() {\n    Console.WriteLine("Hello, World!");\n  }\n}',
   ),
-  CSharpTemplate(
+  /*CSharpTemplate(
     title: 'Standard Input',
     code: '''using System;
 
@@ -16,7 +16,7 @@ class Program {
     Console.WriteLine("Hello, " + name + "!");
   }
 }''',
-  ),
+  ),*/
   CSharpTemplate(
     title: 'Comments',
     code: '''using System;

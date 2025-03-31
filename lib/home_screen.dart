@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'about_screen.dart';
+import 'csharp_editor_screen.dart';
 import 'learn_screen.dart';
 import 'review_screen.dart';
 import 'search_screen.dart';
@@ -35,6 +36,7 @@ class _HomeScreenState extends State<HomeScreen> {
       LearnScreen(),
       ReviewScreen(),
       TemplatesScreen(),
+      CSharpEditorScreen(),
       AboutScreen(),
       /*SettingsScreen(
         changeThemeMode: widget.changeThemeMode,
@@ -88,6 +90,10 @@ class _HomeScreenState extends State<HomeScreen> {
           BottomNavigationBarItem(
             icon: Icon(Icons.code),
             label: 'Templates',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.developer_mode),
+            label: 'C# Editor',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.info),

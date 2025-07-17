@@ -38,7 +38,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         colorSchemeSeed: Colors.blue[900],
         useMaterial3: true,
-        cardTheme: CardTheme(
+        cardTheme: CardThemeData(
           color: Colors.white,
           elevation: 1.5,
           margin: EdgeInsets.all(8),

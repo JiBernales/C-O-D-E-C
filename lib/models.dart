@@ -119,7 +119,8 @@ class Quiz {
   String question;
   List<String> options;
   int correctOptionIndex;
-  final String? imageUrl; // Add "imageUrl" property
+  final String? imageUrl;
+  final String? explanation;
 
   Quiz({
     required this.id,
@@ -127,6 +128,7 @@ class Quiz {
     required this.options,
     required this.correctOptionIndex,
     this.imageUrl,
+    this.explanation,
   });
 
   factory Quiz.fromMap(Map<String, dynamic> data) {
@@ -135,7 +137,8 @@ class Quiz {
       question: data['question'] ?? '',
       options: List<String>.from(data['options'] ?? []),
       correctOptionIndex: data['correctOptionIndex'] ?? 0,
-      imageUrl: data['imageUrl'], // Access "imageUrl" from data
+      imageUrl: data['imageUrl'],
+      explanation: data['explanation'],
     );
   }
 
@@ -145,7 +148,8 @@ class Quiz {
       'question': question,
       'options': options,
       'correctOptionIndex': correctOptionIndex,
-      'imageUrl': imageUrl, // Add "imageUrl" to the map
+      'imageUrl': imageUrl,
+      'explanation': explanation,
     };
   }
 }

@@ -80,8 +80,7 @@ _showLessonInfo(BuildContext context, ReviewLevel level) {
       content = '\n\nBasic Concepts and Logic Design\nC# Programming Language and Origin\nC# Programming Language Environment: IDE';
       break;
     case 3:
-    //content = '\n\nData Types, Variables, and Constants\nOperators, Expressions and Type Conversion';
-      content = '\n\nData Types, Variables, and Constants';
+      content = '\n\nData Types, Variables, and Constants\nOperators, Expressions and Type Conversion';
       break;
     case 4:
       content = '\n\nC# Programming Input-Output Console\nConditional Statements\nC# Looping and Iteration';
@@ -140,7 +139,7 @@ class ReviewLevels extends StatelessWidget {
                   ),
                 ],
               ),
-              title: Text('Level ${reviewLevels[index].level} Recap Questions', style: TextStyle(color: Colors.black)),
+              title: Text('Level ${reviewLevels[index].level} Questions', style: TextStyle(color: Colors.black)),
               trailing: Icon(Icons.arrow_forward, color: Colors.black),
               onTap: () {
                 Navigator.push(
@@ -254,6 +253,8 @@ class _ReviewLevelScreenState extends State<ReviewLevelScreen> {
             ValueListenableBuilder<double>(
               valueListenable: _progressNotifier,
               builder: (context, value, child) {
+                final Color dynamicColor = Color.lerp(Colors.lightBlue[300], Colors.indigo[900], value.clamp(0.0, 1.0))!;
+
                 return Padding(
                   padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                   child: Container(
@@ -261,7 +262,7 @@ class _ReviewLevelScreenState extends State<ReviewLevelScreen> {
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(10.0),
                       child: LinearProgressIndicator(
-                        color: Colors.indigo[900],
+                        color: dynamicColor,
                         value: value,
                       ),
                     ),
@@ -405,17 +406,29 @@ class _ReviewQuizState extends State<ReviewQuiz> {
           SizedBox(
             height: MediaQuery.of(context).size.height * 0.05,
           ),
-          if (answered) ...[
-            Align(
+          if (answered && !isCorrect) ...[
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 5),
               child: Text(
-                isCorrect ? 'Correct!!!' : 'Incorrect...',
-                style: TextStyle(
-                  color: isCorrect ? Colors.green.shade900 : Colors.red.shade700,
-                  fontSize: isCorrect ? 30 : 30,
-                ),
-                textAlign: TextAlign.center,
+                '${widget.quiz.explanation!}',
+                style: TextStyle(color: Colors.black, fontStyle: FontStyle.italic),
               ),
             ),
+          ],
+          if (answered) ...[
+            Padding(
+                padding: const EdgeInsets.symmetric(vertical: 10),
+              child: Align(
+                child: Text(
+                  isCorrect ? 'Correct!!!' : 'Incorrect...',
+                  style: TextStyle(
+                    color: isCorrect ? Colors.green.shade900 : Colors.red.shade700,
+                    fontSize: isCorrect ? 30 : 30,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+              ),
+            )
           ],
           ElevatedButton(
             style: ElevatedButton.styleFrom(

@@ -6,189 +6,167 @@ final Lesson c_lesson_1 = Lesson(
   isCompleted: false,
   isOngoing: false,
   topics: [
-    Topic(id: 'c_topic_1', title: 'Programming Language',
-        content: 'A programming language is a special language that the programmer used in order to give a set of instruction for a computer to execute.',
-        imageUrl: 'images/ctopic1 (1).png'),
-    Topic(id: 'c_topic_1', title: 'Program',
-        content: 'Program is a logical pattern of instructions to solve a problem. it is also a series of coded instruction in performing operations for computer task.',
-        imageUrl: 'images/ctopic1 (2).png'),
-    Topic(id: 'c_topic_1', title: 'Programming',
-        content: 'Programming is an art and science of designing a program. Furthermore, it is the process where an algorithm is applied, encoding it in a notation manner or a way that the computer will understand like the programming languages.',
-        imageUrl: 'images/ctopic1 (3).png'),
-    Topic(id: 'c_topic_1', title: 'Programmer',
-        content: 'Programmer is a person who creates, develops, codes, test, debugs (removing an error) and documents a computer program.',
-        imageUrl: 'images/ctopic1 (4).png'),
-    Topic(id: 'c_topic_1', title: 'Algorithm',
-        content: 'Algorithm is a step-by-step method for solving a computational problem. For example, to compute the salary of the employees, step-by-step processes are applied: from entering of data to the result of the total salary.',
-        imageUrl: 'images/ctopic1 (5).png'),
-    Topic(id: 'c_topic_1', title: 'Logic',
-        content: 'Logic is from the Greek word logos which is sometimes translated as "reason". It is the study of the principles of correct reasoning.',
-        imageUrl: 'images/ctopic1 (7).png'),
-    Topic(id: 'c_topic_1', title: 'Logic Formulation',
-        content: 'The process of coming out with the basic steps to implement a procedure in computer programming is what we call Logic Formulation. This is usually resorted to when having top-down design. Flowcharts and PseudoCodes are the two of most common output of this exercise.'),
-    Topic(id: 'c_topic_1', title: 'Flowchart',
-      content: 'Flowchart is an illustration that show the "flow" of a program. It is used in many ways; one of which is to solve a problem in computer programming.',),
+    Topic(
+      id: 'c_topic_1',
+      title: 'Programming Language',
+      content: 'A programming language is a specialized language used by programmers to give a set of instructions that a computer can execute.',
+      imageUrl: 'images/ctopic1 (1).png',
+    ),
+    Topic(
+      id: 'c_topic_1',
+      title: 'Program',
+      content: 'A program is a logical sequence of instructions designed to solve a problem. It is a set of coded instructions that directs a computer to perform specific tasks.',
+      imageUrl: 'images/ctopic1 (2).png',
+    ),
+    Topic(
+      id: 'c_topic_1',
+      title: 'Programming',
+      content: 'Programming is the art and science of designing and creating programs. It involves applying algorithms and expressing them in a form that a computer can understand, such as programming languages.',
+      imageUrl: 'images/ctopic1 (3).png',
+    ),
+    Topic(
+      id: 'c_topic_1',
+      title: 'Programmer',
+      content: 'A programmer is a person who creates, develops, codes, tests, debugs (removes errors), and documents computer programs.',
+      imageUrl: 'images/ctopic1 (4).png',
+    ),
     Topic(
       id: 'c_topic_1',
       title: 'Algorithm',
-      content: 'An algorithm is a step-by-step method for solving a computational problem. For example, to compute the salary of employees, a series of steps is followed — from data entry to the final result.',
+      content: 'An algorithm is a step-by-step method for solving a computational problem. For example, to compute employee salaries, the process begins with data entry and ends with the total salary result.',
       imageUrl: 'images/ctopic1 (5).png',
     ),
-
     Topic(
       id: 'c_topic_1',
       title: 'Logic',
-      content: 'Logic comes from the Greek word logos, often translated as "reason." It is the study of the principles of correct reasoning.',
+      content: 'Logic comes from the Greek word logos, meaning "reason." It is the study of the principles of correct reasoning.',
       imageUrl: 'images/ctopic1 (7).png',
     ),
-
     Topic(
       id: 'c_topic_1',
       title: 'Logic Formulation',
-      content: 'Logic Formulation is the process of identifying the basic steps needed to implement a procedure in computer programming. It is commonly used in top-down design. Flowcharts and pseudocode are two common outputs of this process.',
+      content: 'Logic formulation is the process of identifying the basic steps required to implement a procedure in computer programming. It is commonly used in top-down design. Flowcharts and pseudocode are two common outputs of this process.',
     ),
-
     Topic(
       id: 'c_topic_1',
       title: 'Flowchart',
-      content: 'A flowchart is a diagram that shows the "flow" or sequence of steps in a program. It is commonly used to solve problems in computer programming.',
+      content: 'A flowchart is a diagram that illustrates the sequence or "flow" of steps in a program. It is widely used to visualize and solve problems in computer programming.',
       imageUrl: 'images/ctopic1 (8).png',
     ),
-
     Topic(
       id: 'c_topic_1',
       title: 'Terminator',
-      content: 'A terminator is used to mark the start or end point of a process. It may also indicate an interruption or delay in a program.',
+      content: 'A terminator symbol is used to mark the start or end of a process. It may also indicate an interruption or delay.',
       imageUrl: 'images/ctopic1 (10).png',
     ),
-
     Topic(
       id: 'c_topic_1',
       title: 'Process',
-      content: 'A process symbol represents an operation or action step, such as arithmetic operations or data manipulation. It is also considered a default symbol in flowcharts.',
+      content: 'A process symbol represents an operation or action step, such as arithmetic operations or data manipulation. It is often considered the default symbol in flowcharts.',
       imageUrl: 'images/ctopic1 (11).png',
     ),
-
     Topic(
       id: 'c_topic_1',
       title: 'Decision',
-      content: 'A decision symbol represents a question or a branch in the process. It is used for logic or comparison operations and typically has one entry and two exit paths.',
+      content: 'A decision symbol represents a point where a choice must be made. It is used for logical or comparison operations and usually has one entry and two exit paths.',
       imageUrl: 'images/ctopic1 (12).png',
     ),
-
     Topic(
       id: 'c_topic_1',
       title: 'Flow Line',
       content: 'Flow lines indicate the direction of logic flow and are used to connect symbols in a flowchart.',
       imageUrl: 'images/ctopic1 (13).png',
     ),
-
     Topic(
       id: 'c_topic_1',
       title: 'Input/Output',
-      content: 'Input/Output symbols are used for input and output operations such as reading data and displaying information.',
+      content: 'Input/Output symbols represent operations such as reading data or displaying information.',
       imageUrl: 'images/ctopic1 (14).png',
     ),
-
     Topic(
       id: 'c_topic_1',
       title: 'Connector',
-      content: 'A connector is used to join two flow lines and may also represent an entry to or exit from another part of the flowchart.',
+      content: 'A connector is used to link two flow lines. It can also indicate entry into or exit from another part of the flowchart.',
       imageUrl: 'images/ctopic1 (15).png',
     ),
-
     Topic(
       id: 'c_topic_1',
       title: 'Off-Page Connector',
-      content: 'An off-page connector is used to indicate that the flowchart continues on another page.',
+      content: 'An off-page connector indicates that the flowchart continues on another page.',
       imageUrl: 'images/ctopic1 (16).png',
     ),
-
     Topic(
       id: 'c_topic_1',
       title: 'Pre-Defined Process',
-      content: 'A pre-defined process symbol represents a formally defined sub-process. It is used to indicate a group of statements that perform a single processing task.',
+      content: 'A pre-defined process symbol represents a formally defined sub-process. It indicates a group of statements that perform a specific task.',
       imageUrl: 'images/ctopic1 (17).png',
     ),
-
     Topic(
       id: 'c_topic_1',
       title: 'Database',
-      content: 'A database is a collection of data that is stored and accessed using a computer system.',
+      content: 'A database is a structured collection of data that can be stored, retrieved, and managed using a computer system.',
       imageUrl: 'images/ctopic1 (18).png',
     ),
-
     Topic(
       id: 'c_topic_1',
       title: 'Or',
       content: 'The OR symbol represents a logical OR operation.',
       imageUrl: 'images/ctopic1 (19).png',
     ),
-
     Topic(
       id: 'c_topic_1',
       title: 'Summing Junction',
       content: 'A summing junction symbol represents a logical AND operation.',
       imageUrl: 'images/ctopic1 (20).png',
     ),
-
     Topic(
       id: 'c_topic_1',
       title: 'Document',
-      content: 'A document symbol represents a report or a printed document.',
-      imageUrl: 'images/ctopic1 (11).png',
+      content: 'A document symbol represents a report or printed document.',
+      imageUrl: 'images/ctopic1 (21).png',
     ),
-
     Topic(
       id: 'c_topic_1',
       title: 'Pseudocode',
-      content: 'Pseudocode is a simplified, informal description of a program or algorithm written in a combination of plain English and programming-like structure. It is used to clarify the logic before coding.',
+      content: 'Pseudocode is an informal way of describing a program or algorithm using plain English mixed with programming-like structure. It is used to clarify the logic before writing actual code.',
       imageUrl: 'images/ctopic1 (9).png',
     ),
-
     Topic(
       id: 'c_topic_1',
-      title: 'Pseudocode',
-      content: 'Pseudocode helps review the logic without looking at the actual source code. It simplifies design changes, reduces the need for excessive commenting, and makes maintenance easier.',
+      title: 'Pseudocode Benefits',
+      content: 'Pseudocode helps review program logic without needing the actual source code. It simplifies design changes, reduces the need for excessive commenting, and makes maintenance easier.',
     ),
-
     Topic(
       id: 'c_topic_1',
       title: 'Pseudocode Components',
-      content: 'Pseudocode can be broken down into five components:\n\n• Variables\n• Assignment\n• Input/Output\n• Selection\n• Repetition',
+      content: 'Pseudocode can be broken down into five main components:\n\n• Variables\n• Assignment\n• Input/Output\n• Selection\n• Repetition',
     ),
-
     Topic(
       id: 'c_topic_1',
-      title: 'Structure Programming and Top Down Design Procedure',
-      content: 'Structured Programming and Top-Down Design both refer to a sequential approach to developing better and more organized programs.',
+      title: 'Structured Programming and Top-Down Design',
+      content: 'Structured Programming and Top-Down Design both emphasize a step-by-step, organized approach to developing efficient programs.',
     ),
-
     Topic(
       id: 'c_topic_1',
-      title: 'Top Down Design Procedure',
+      title: 'Top-Down Design Procedure',
       content: '',
       imageUrl: 'images/ctopic1 (22).png',
     ),
-
     Topic(
       id: 'c_topic_1',
-      title: 'Structure Programming and Top Down Design Procedure Steps',
-      content: 'Step 1: Program Planning\n\nInvolves deciding on the purpose and functionality of the program.\n\nStep 2: Program Design\n\nInvolves planning how the program will work.',
+      title: 'Structured Programming and Top-Down Design Steps',
+      content: 'Step 1: Program Planning\nDefine the purpose and functionality of the program.\n\nStep 2: Program Design\nPlan how the program will achieve its goals.',
     ),
-
     Topic(
       id: 'c_topic_1',
-      title: 'Structure Programming and Top Down Design Procedure Steps',
-      content: 'Step 3: Coding\n\nWriting the program using a suitable programming language.\n\nStep 4: Testing/Debugging\n\nIdentifying and correcting errors in the program.',
+      title: 'Structured Programming and Top-Down Design Steps',
+      content: 'Step 3: Coding\nWrite the program using a suitable programming language.\n\nStep 4: Testing and Debugging\nFind and correct errors in the program.',
     ),
-
     Topic(
       id: 'c_topic_1',
-      title: 'Structure Programming and Top Down Design Procedure Steps',
-      content: 'Step 5: Documentation\n\nWriting detailed information about how the program works and how to use it.\n\nStep 6: Maintenance\n\nCorrecting errors as they are discovered and updating the program based on user feedback and requirements.',
+      title: 'Structured Programming and Top-Down Design Steps',
+      content: 'Step 5: Documentation\nProvide detailed information on how the program works and how to use it.\n\nStep 6: Maintenance\nFix errors discovered after release and update the program based on user needs.',
     ),
-
     Topic(
       id: 'c_topic_1',
       title: 'Lesson 1 Review',
@@ -198,87 +176,77 @@ final Lesson c_lesson_1 = Lesson(
   ],
   quizzes: [
     Quiz(
-    id: 'c_quiz_1',
-    question: 'It refers to the person who creates, codes, tests, debugs, and documents a computer program.',
-    options: ['Programmer', 'Software Designer', 'Program', 'Programmist'],
-    correctOptionIndex: 0,
-    explanation: 'A programmer handles the entire process of developing a program, from coding to debugging and documentation.',
-  ),
-
-    Quiz(
       id: 'c_quiz_1',
+      question: 'It refers to the person who creates, codes, tests, debugs, and documents a computer program.',
+      options: ['Programmer', 'Software Designer', 'Program', 'Programmist'],
+      correctOptionIndex: 0,
+      explanation: 'A programmer handles the entire process of developing a program, from coding to debugging and documentation.',
+    ),
+    Quiz(
+      id: 'c_quiz_2',
       question: 'A means of communication between humans and machines.',
       options: ['Programming Language', 'Connection', 'Loading Screen'],
       correctOptionIndex: 0,
       explanation: 'Programming languages allow humans to write instructions that computers can understand and execute.',
     ),
-
     Quiz(
-      id: 'c_quiz_1',
+      id: 'c_quiz_3',
       question: 'It is used to clarify the plan and design of a program before coding begins.',
-      options: ['Pseudocode', 'Flowgraph', 'Algorithm', 'Loading Screen'],
+      options: ['Pseudocode', 'Flowchart', 'Algorithm', 'Loading Screen'],
       correctOptionIndex: 0,
       explanation: 'Pseudocode is a simplified representation of a program\'s logic that helps in planning before actual coding.',
     ),
-
     Quiz(
-      id: 'c_quiz_1',
+      id: 'c_quiz_4',
       question: 'A diagram that shows the "flow" of a program.',
       options: ['Flowchart', 'Flowgraph', 'Flowbar'],
       correctOptionIndex: 0,
       explanation: 'A flowchart uses shapes and arrows to illustrate the sequence of steps in a program.',
     ),
-
     Quiz(
-      id: 'c_quiz_1',
+      id: 'c_quiz_5',
       question: 'A step-by-step method used to solve a problem.',
       options: ['Algorithm', 'Flowchart', 'Pseudocode', 'Flowgraph'],
       correctOptionIndex: 0,
       explanation: 'An algorithm is a structured sequence of instructions used to solve a problem.',
     ),
-
     Quiz(
-      id: 'c_quiz_1',
+      id: 'c_quiz_6',
       question: 'The study of the principles of correct reasoning.',
       options: ['Logic', 'Flow', 'Programming', 'Biology'],
       correctOptionIndex: 0,
       explanation: 'Logic forms the basis for rational thought and decision-making in programming.',
     ),
-
     Quiz(
-      id: 'c_quiz_1',
+      id: 'c_quiz_7',
       question: 'The art and science of designing a program.',
       options: ['Programming', 'Progging', 'Progology', 'Programmer'],
       correctOptionIndex: 0,
       explanation: 'Programming involves designing, writing, and maintaining code to solve problems.',
     ),
-
     Quiz(
-      id: 'c_quiz_1',
+      id: 'c_quiz_8',
       question: 'Indicates the direction of logical flow and is used to connect symbols.',
       options: ['Flow lines', 'Connector', 'Decision', 'Pointer'],
       correctOptionIndex: 0,
       explanation: 'Flow lines in a flowchart show the order in which steps are performed and connect different elements.',
     ),
-
     Quiz(
-      id: 'c_quiz_1',
+      id: 'c_quiz_9',
       question: 'A series of coded instructions that perform tasks for a computer.',
       options: ['Program', 'Flowchart', 'Language', 'Commands'],
       correctOptionIndex: 0,
       explanation: 'A program is a collection of instructions that tell the computer what to do.',
     ),
-
     Quiz(
-      id: 'c_quiz_1',
+      id: 'c_quiz_10',
       question: 'Used as a start or stop point in a process and may indicate a delay.',
       options: ['Terminator', 'Connector', 'Decision', 'Input/Output'],
       correctOptionIndex: 0,
       explanation: 'The terminator symbol marks the beginning or end of a process in a flowchart.',
     ),
-
     Quiz(
-      id: 'c_quiz_1',
+      id: 'c_quiz_11',
       question: 'Which is the first step in Structured Programming or Top-Down Design?',
       options: ['Program Planning', 'Coding', 'Testing and Debugging', 'Program Designing'],
       correctOptionIndex: 0,
@@ -294,107 +262,166 @@ final Lesson c_lesson_2 = Lesson(
   isCompleted: false,
   isOngoing: false,
   topics: [
-    Topic(id: 'c_topic_2', title: 'The Early History of Programming Languages',
-        content: 'Many individuals contributed brilliant ideas that led to the development of programming languages.'),
-
-    Topic(id: 'c_topic_2', title: 'Joseph Marie Jacquard',
-        content: 'Joseph Marie Jacquard developed a practical automatic loom that wove patterns controlled by a linked sequence of punched cards.',
-        imageUrl: 'images/ctopic2 (1).png'),
-
-    Topic(id: 'c_topic_2', title: 'Jacquard Loom',
-        content: 'The Jacquard Loom, invented in 1801 by Joseph Marie Jacquard, was a sewing loom that used holes in punched cards to create decorative patterns in cloth.',
-        imageUrl: 'images/ctopic2 (2).png'),
-
-    Topic(id: 'c_topic_2', title: 'Charles Babbage',
-        content: 'Charles Babbage invented the Analytical Engine, a mechanical calculating machine based on his earlier invention, the Difference Engine.',
-        imageUrl: 'images/ctopic2 (3).png'),
-
-    Topic(id: 'c_topic_2', title: 'Analytical Engine',
-        content: 'The Analytical Engine was a fully program-controlled mechanical computer powered by six steam engines. It could perform any calculation it was instructed to.',
-        imageUrl: 'images/ctopic2 (4).png'),
-
-    Topic(id: 'c_topic_2', title: 'Augusta Ada Byron Lovelace',
-        content: 'Ada Lovelace assisted in the development of the Analytical Engine. She is known as the first programmer for writing the first set of instructions (a program) for it.',
-        imageUrl: 'images/ctopic2 (14).png'),
-
-    Topic(id: 'c_topic_2', title: 'The Modern Programming Languages',
-        content: 'In the 1940s, computers were electronically powered, but their memory capacity was very low. During this era, programmers primarily used assembly language. In the years that followed, several programming languages were developed and gained widespread use.'),
-
-    Topic(id: 'c_topic_2', title: 'Assembly Language',
-        content: 'Assembly Language was widely used by programmers in the 1940s due to limited memory. However, it was difficult to learn and prone to errors.',
-        imageUrl: 'images/ctopic2 (5).png'),
-
-    Topic(id: 'c_topic_2', title: 'FORTRAN',
-        content: 'FORTRAN, which stands for "FORmula TRANslator," was invented by John Backus in 1955. It was designed for scientific and engineering applications.',
-        imageUrl: 'images/ctopic2 (6).png'),
-
-    Topic(id: 'c_topic_2', title: 'COBOL',
-        content: 'COBOL, developed by the Short Range Committee and Grace Hopper, stands for "COmmon Business-Oriented Language." It is widely used in business, finance, and government systems.',
-        imageUrl: 'images/ctopic2 (7).png'),
-
-    Topic(id: 'c_topic_2', title: 'Algol 60',
-        content: 'Algol 60 was developed by a committee of American and European computer scientists. It was versatile but complex, making it challenging for new programmers to learn.',
-        imageUrl: 'images/ctopic2 (8).png'),
-
-    Topic(id: 'c_topic_2', title: 'Pascal',
-        content: 'Pascal was a general-purpose, high-level programming language invented by Niklaus Wirth. It was easy to learn and widely adopted by early programmers.',
-        imageUrl: 'images/ctopic2 (9).png'),
-
-    Topic(id: 'c_topic_2', title: 'Other Early Programming Languages and Their Developers',
-        content: 'C – developed by Dennis Ritchie and Ken \n Simula – developed by Kristen Nygaard and Ole-Johan Dahl\nProlog – developed by Alain Colmerauer, Philippe Roussel, and Robert Kowalski\nML – developed by Robin Milner'),
-
-        Topic(id: 'c_topic_2', title: 'High Level/Problem Oriented Language',
-        content: 'High-level languages are human-readable and easier to learn. They are designed for better programming efficiency and faster development.'),
-
-    Topic(id: 'c_topic_2', title: 'Low Level/Machine Oriented Language',
-        content: 'Low-level languages, like machine code, are directly readable by machines. These languages are more difficult to learn and write compared to high-level languages.'),
-
-    Topic(id: 'c_topic_2', title: 'Comparison of Low and High Level Languages',
-        content: '',
-        imageUrl: 'images/ctopic2 (10).png'),
-
-    Topic(id: 'c_topic_2', title: 'Comparison of Low and High Level Languages',
-        content: '',
-        imageUrl: 'images/ctopic2 (13).png'),
-
-    Topic(id: 'c_topic_2', title: 'C#',
-        content: 'C# is an advanced combination of the C and C++ programming languages.',
-        imageUrl: 'images/ctopic2 (11).png'),
-
-    Topic(id: 'c_topic_2', title: 'C#',
-        content: 'C# is a simple, modern, object-oriented programming language developed by Microsoft. It was approved by ECMA and ISO and was created by Anders Hejlsberg and his team during the development of the .NET Framework.'),
-
-    Topic(id: 'c_topic_2', title: 'Characteristics of C#',
-        content: '• It is a modern, general-purpose programming language\n• It is object-oriented\n• It is component-oriented\n• It is easy to learn\n• It is a structured language\n• It produces efficient programs\n• It can be compiled on a variety of computer platforms\n• It is part of the .NET Framework'),
-
-        Topic(id: 'c_topic_2', title: 'Example of C# Code',
-        content: '',
-        imageUrl: 'images/ctopic2 (12).png'),
-
-    Topic(id: 'c_topic_2', title: '"using System"',
-        content: '"using System" is the first line of a C# program. The "using" keyword includes the System namespace. Programs typically use multiple "using" statements.'),
-
-    Topic(id: 'c_topic_2', title: '"namespace BasicSyntax"',
-        content: 'The line "namespace BasicSyntax" declares a namespace, which is a collection of classes. The "BasicSyntax" namespace contains the Program class.'),
-
-    Topic(id: 'c_topic_2', title: '"class Program"',
-        content: 'The line "class Program" declares the Program class, which contains data and method definitions. Classes typically contain multiple methods.'),
-
-    Topic(id: 'c_topic_2', title: '"static void Main (string[] args)"',
-        content: 'The Main method defines what the class does when executed and serves as the entry point of all C# programs.'),
-
-    Topic(id: 'c_topic_2', title: '"// TODO: Implement Functionality Here"',
-        content: 'Lines beginning with "//" or enclosed in "/**/" are comments. They are ignored by the compiler and used to annotate the program.'),
-
-    Topic(id: 'c_topic_2', title: '"Console.WriteLine(...);"',
-        content: '"Console.WriteLine(...)" displays the statement inside the quotation marks. It is a method of the Console class in the System namespace.'),
-
-    Topic(id: 'c_topic_2', title: '"Console.ReadKey();"',
-        content: '"Console.ReadKey();" pauses the program until a key is pressed, preventing the screen from closing immediately when launched from an IDE.'),
-
-    Topic(id: 'c_topic_2', title: 'Lesson 2 Review',
-        content: 'Let\'s have a mini-quiz to review what we\'ve learned so far.',
-        imageUrl: 'images/quiz.png'),
+    Topic(
+      id: 'c_topic_2',
+      title: 'The Early History of Programming Languages',
+      content: 'Many pioneers contributed innovative ideas that led to the development of programming languages.',
+    ),
+    Topic(
+      id: 'c_topic_2',
+      title: 'Joseph Marie Jacquard',
+      content: 'Joseph Marie Jacquard developed a practical automatic loom that wove patterns controlled by a linked sequence of punched cards.',
+      imageUrl: 'images/ctopic2 (1).png',
+    ),
+    Topic(
+      id: 'c_topic_2',
+      title: 'Jacquard Loom',
+      content: 'The Jacquard Loom, invented in 1801 by Joseph Marie Jacquard, was a mechanical loom that used punched cards to control decorative patterns in fabric.',
+      imageUrl: 'images/ctopic2 (2).png',
+    ),
+    Topic(
+      id: 'c_topic_2',
+      title: 'Charles Babbage',
+      content: 'Charles Babbage invented the Analytical Engine, a mechanical calculating machine based on his earlier invention, the Difference Engine.',
+      imageUrl: 'images/ctopic2 (3).png',
+    ),
+    Topic(
+      id: 'c_topic_2',
+      title: 'Analytical Engine',
+      content: 'The Analytical Engine was a fully program-controlled mechanical computer powered by steam engines. It could perform any calculation it was instructed to execute.',
+      imageUrl: 'images/ctopic2 (4).png',
+    ),
+    Topic(
+      id: 'c_topic_2',
+      title: 'Augusta Ada Byron Lovelace',
+      content: 'Ada Lovelace assisted in the development of the Analytical Engine. She is regarded as the first programmer for writing the first set of instructions (a program) for the machine.',
+      imageUrl: 'images/ctopic2 (14).png',
+    ),
+    Topic(
+      id: 'c_topic_2',
+      title: 'The Modern Programming Languages',
+      content: 'In the 1940s, computers were electronically powered but had very limited memory. During this era, programmers primarily used assembly language. In the years that followed, new programming languages were developed and widely adopted.',
+    ),
+    Topic(
+      id: 'c_topic_2',
+      title: 'Assembly Language',
+      content: 'Assembly language was widely used by programmers in the 1940s because of hardware limitations. However, it was difficult to learn and prone to errors.',
+      imageUrl: 'images/ctopic2 (5).png',
+    ),
+    Topic(
+      id: 'c_topic_2',
+      title: 'FORTRAN',
+      content: 'FORTRAN, short for "FORmula TRANslator," was invented by John Backus in 1955. It was designed for scientific and engineering applications.',
+      imageUrl: 'images/ctopic2 (6).png',
+    ),
+    Topic(
+      id: 'c_topic_2',
+      title: 'COBOL',
+      content: 'COBOL, developed by the Short Range Committee led by Grace Hopper, stands for "COmmon Business-Oriented Language." It became widely used in business, finance, and government systems.',
+      imageUrl: 'images/ctopic2 (7).png',
+    ),
+    Topic(
+      id: 'c_topic_2',
+      title: 'Algol 60',
+      content: 'Algol 60 was developed by a committee of American and European computer scientists. It was powerful but also complex, making it difficult for beginners to learn.',
+      imageUrl: 'images/ctopic2 (8).png',
+    ),
+    Topic(
+      id: 'c_topic_2',
+      title: 'Pascal',
+      content: 'Pascal was a general-purpose, high-level programming language created by Niklaus Wirth. It was easy to learn and widely adopted by early programmers.',
+      imageUrl: 'images/ctopic2 (9).png',
+    ),
+    Topic(
+      id: 'c_topic_2',
+      title: 'Other Early Programming Languages and Their Developers',
+      content: '• C – developed by Dennis Ritchie and Ken Thompson\n• Simula – developed by Kristen Nygaard and Ole-Johan Dahl\n• Prolog – developed by Alain Colmerauer, Philippe Roussel, and Robert Kowalski\n• ML – developed by Robin Milner',
+    ),
+    Topic(
+      id: 'c_topic_2',
+      title: 'High-Level/Problem-Oriented Language',
+      content: 'High-level languages are closer to human language and easier to learn. They allow faster development and improved programming efficiency.',
+    ),
+    Topic(
+      id: 'c_topic_2',
+      title: 'Low-Level/Machine-Oriented Language',
+      content: 'Low-level languages, such as machine code and assembly, are directly understood by computers but are more difficult for humans to learn and write.',
+    ),
+    Topic(
+      id: 'c_topic_2',
+      title: 'Comparison of Low and High Level Languages',
+      content: '',
+      imageUrl: 'images/ctopic2 (10).png',
+    ),
+    Topic(
+      id: 'c_topic_2',
+      title: 'Comparison of Low and High Level Languages',
+      content: '',
+      imageUrl: 'images/ctopic2 (13).png',
+    ),
+    Topic(
+      id: 'c_topic_2',
+      title: 'C#',
+      content: 'C# is an advanced language influenced by C and C++. It combines power with simplicity for modern programming needs.',
+      imageUrl: 'images/ctopic2 (11).png',
+    ),
+    Topic(
+      id: 'c_topic_2',
+      title: 'C#',
+      content: 'C# is a simple, modern, object-oriented programming language developed by Microsoft. It was created by Anders Hejlsberg and his team during the development of the .NET Framework and later approved by ECMA and ISO.',
+    ),
+    Topic(
+      id: 'c_topic_2',
+      title: 'Characteristics of C#',
+      content: '• Modern, general-purpose programming language\n• Object-oriented\n• Component-oriented\n• Easy to learn\n• Structured language\n• Produces efficient programs\n• Portable across platforms\n• Part of the .NET Framework',
+    ),
+    Topic(
+      id: 'c_topic_2',
+      title: 'Example of C# Code',
+      content: '',
+      imageUrl: 'images/ctopic2 (12).png',
+    ),
+    Topic(
+      id: 'c_topic_2',
+      title: '"using System"',
+      content: 'The line "using System" is typically the first in a C# program. The "using" keyword includes the System namespace, which provides basic classes and functionality.',
+    ),
+    Topic(
+      id: 'c_topic_2',
+      title: '"namespace BasicSyntax"',
+      content: 'The line "namespace BasicSyntax" declares a namespace, which is a collection of classes. In this example, the namespace contains the Program class.',
+    ),
+    Topic(
+      id: 'c_topic_2',
+      title: '"class Program"',
+      content: 'The line "class Program" defines the Program class, which can contain data and methods. A class usually includes multiple methods.',
+    ),
+    Topic(
+      id: 'c_topic_2',
+      title: '"static void Main (string[] args)"',
+      content: 'The Main method defines what happens when the program runs. It serves as the entry point for all C# programs.',
+    ),
+    Topic(
+      id: 'c_topic_2',
+      title: '"// TODO: Implement Functionality Here"',
+      content: 'Lines beginning with "//" or enclosed in "/* */" are comments. They are ignored by the compiler and used to annotate the program.',
+    ),
+    Topic(
+      id: 'c_topic_2',
+      title: '"Console.WriteLine(...);"',
+      content: '"Console.WriteLine(...);" displays the text or value inside the quotation marks. It is a method of the Console class in the System namespace.',
+    ),
+    Topic(
+      id: 'c_topic_2',
+      title: '"Console.ReadKey();"',
+      content: '"Console.ReadKey();" pauses the program until a key is pressed, preventing the console window from closing immediately when launched from an IDE.',
+    ),
+    Topic(
+      id: 'c_topic_2',
+      title: 'Lesson 2 Review',
+      content: 'Let\'s have a mini-quiz to review what we\'ve learned so far.',
+      imageUrl: 'images/quiz.png',
+    ),
   ],
   quizzes: [
   Quiz(
@@ -578,7 +605,7 @@ final Lesson c_lesson_4 = Lesson(
   isOngoing: false,
   topics: [
     Topic(id: 'c_topic_4', title: 'Data Types',
-        content: 'Data types classify the type of value a variable can hold in a programming language. Common examples include integer, float, double, and string.'),
+        content: 'Data types classify the type of value a variable can hold in a programming language. Common examples include int, float, double, and string.'),
 
     Topic(id: 'c_topic_4', title: 'String',
         content: 'Strings represent a sequence of characters and are used to store text.',
@@ -592,12 +619,12 @@ final Lesson c_lesson_4 = Lesson(
         content: 'Float represents numbers that have decimal points and are used for approximations.',
         imageUrl: 'images/ctopic4 (3).png'),
 
-    Topic(id: 'c_topic_4', title: 'Double Float',
-        content: 'Double floats are like floats but offer more precision. They support more digits after the decimal point.',
+    Topic(id: 'c_topic_4', title: 'Double',
+        content: 'Double is similar to float but offers greater precision, supporting more digits after the decimal point.',
         imageUrl: 'images/ctopic4 (4).png'),
 
     Topic(id: 'c_topic_4', title: 'C# Primitive Type',
-        content: 'C# primitive types, also known as value types, are predefined in the .NET framework. They are stored on the stack and can be assigned values directly.'),
+        content: 'C# primitive types, also known as value types, are predefined in the .NET Framework. They are stored on the stack and can be assigned values directly.'),
 
     Topic(id: 'c_topic_4', title: 'Non-Primitive/Reference Type',
         content: 'Reference types store references to the actual data rather than the data itself. Multiple variables can reference the same memory location, and changing the data through one reference affects all others.'),
@@ -631,7 +658,7 @@ final Lesson c_lesson_4 = Lesson(
         content: 'Constants are declared using the "const" keyword. Only built-in C# types (excluding System.Object) can be declared as const.'),
 
     Topic(id: 'c_topic_4', title: 'Integer Literals',
-        content: 'Integer literals can be decimal, octal, or hexadecimal. Prefixes determine the base: 0x or 0X for hexadecimal, 0 for octal, and no prefix for decimal. They may have suffixes such as U (unsigned) or L (long).'),
+        content: 'Integer literals can be written in decimal or hexadecimal form. Prefixes determine the base: 0x or 0X for hexadecimal, and no prefix for decimal. They may also have suffixes such as U (unsigned) or L (long).'),
 
     Topic(id: 'c_topic_4', title: 'Examples of Integer Literals',
         content: '',
@@ -649,7 +676,7 @@ final Lesson c_lesson_4 = Lesson(
         imageUrl: 'images/ctopic4 (11).png'),
 
     Topic(id: 'c_topic_4', title: 'Character Literals',
-        content: 'Character literals are enclosed in single quotes. They can be plain characters (e.g., "x"), escape sequences (e.g., "\t"), or Unicode characters (e.g., "\u02C0").'),
+        content: 'Character literals are enclosed in single quotes. They can be plain characters (e.g., \'x\'), escape sequences (e.g., \'\\t\'), or Unicode characters (e.g., \'\\u02C0\').'),
 
     Topic(id: 'c_topic_4', title: 'Escape Sequences',
         content: 'Escape sequences in C# begin with a backslash (\\) and represent special characters.'),
@@ -666,6 +693,7 @@ final Lesson c_lesson_4 = Lesson(
         content: 'Let\'s have a mini-quiz to review what we\'ve learned so far.',
         imageUrl: 'images/quiz.png'),
   ],
+
   quizzes: [
     Quiz(
         id: 'c_quiz_4',
@@ -713,56 +741,74 @@ final Lesson c_lesson_5 = Lesson(
   isOngoing: false,
   topics: [
     Topic(id: 'c_topic_5', title: 'Operators',
-      content: 'Operators are symbols used to perform mathematical or logical operations on values (or variables), called operands, to produce a new value called the result.',
-      imageUrl: 'images/ctopic5 (1).png',),
+        content: 'Operators are symbols used to perform mathematical or logical operations on values (or variables), called operands, to produce a new value called the result.',
+        imageUrl: 'images/ctopic5 (1).png'),
+
     Topic(id: 'c_topic_5', title: 'Operands',
-        content: 'Operands are the values or variables that are acted upon by operators. In C#, operands are always evaluated from left to right.',
+        content: 'Operands are the values or variables that operators act upon. In C#, operands are evaluated from left to right.',
         imageUrl: 'images/ctopic5 (2).png'),
+
     Topic(id: 'c_topic_5', title: 'Expressions',
         content: 'Expressions are formed using variables, constants, and operators.',
         imageUrl: 'images/ctopic5 (3).png'),
+
     Topic(id: 'c_topic_5', title: 'Unary Operators',
         content: 'Unary operators operate on a single operand to produce a new value.',
         imageUrl: 'images/ctopic5 (4).png'),
+
     Topic(id: 'c_topic_5', title: 'Binary Operators',
         content: 'Binary operators require two operands. C# uses infix notation, where the operator appears between the left and right operands. The result of every binary operation—except assignment—must be used in some way, such as assigning it to a variable.'),
+
     Topic(id: 'c_topic_5', title: 'Arithmetic Operators',
         content: 'Arithmetic operators are binary operators used for performing mathematical calculations.',
         imageUrl: 'images/ctopic5 (5).png'),
+
     Topic(id: 'c_topic_5', title: 'Relational Operators',
-        content: 'Relational operators are binary operators that compare two values. They return either 1 (true) or 0 (false).',
+        content: 'Relational operators are binary operators that compare two values. They return either true (1) or false (0).',
         imageUrl: 'images/ctopic5 (6).png'),
+
     Topic(id: 'c_topic_5', title: 'Logical Operators',
         content: 'Logical operators are used to combine or modify boolean expressions. Common logical operators include AND, OR, and NOT.',
         imageUrl: 'images/ctopic5 (7).png'),
+
     Topic(id: 'c_topic_5', title: 'Compound Assignment Operators',
         content: 'Compound assignment operators combine an operation with assignment. They are shorthand notations like +=, -=, *=, and /=.'),
+
     Topic(id: 'c_topic_5', title: 'Compound Assignment Operators',
         content: '',
         imageUrl: 'images/ctopic5 (8).png'),
+
     Topic(id: 'c_topic_5', title: 'Compound Assignment Operators',
         content: '',
         imageUrl: 'images/ctopic5 (9).png'),
+
     Topic(id: 'c_topic_5', title: 'Ternary Operators',
         content: 'The ternary operator is a conditional operator that takes three operands: a condition, a result if true, and a result if false. Syntax: condition ? trueResult : falseResult;',
         imageUrl: 'images/ctopic5 (10).png'),
+
     Topic(id: 'c_topic_5', title: 'Type Conversion',
-        content: 'Type conversion refers to changing a value from one data type to another. C# supports implicit and explicit type conversion.',
+        content: 'Type conversion refers to changing a value from one data type to another. C# supports both implicit and explicit type conversion.',
         imageUrl: 'images/ctopic5 (11).png'),
+
     Topic(id: 'c_topic_5', title: 'Implicit Type Conversion',
-        content: 'Implicit type conversion is done automatically by C# when converting from a smaller to a larger compatible data type or from a derived class to a base class.'),
+        content: 'Implicit type conversion is done automatically by C# when converting from a smaller to a larger compatible data type, or from a derived class to a base class.'),
+
     Topic(id: 'c_topic_5', title: 'Explicit Type Conversion',
         content: 'Explicit type conversion requires the use of a cast operator. It is necessary when converting from a larger to a smaller data type or between incompatible types.'),
+
     Topic(id: 'c_topic_5', title: 'Type Conversion Methods',
         content: '',
         imageUrl: 'images/ctopic5 (12).png'),
+
     Topic(id: 'c_topic_5', title: 'Type Conversion Methods',
         content: '',
         imageUrl: 'images/ctopic5 (13).png'),
+
     Topic(id: 'c_topic_5', title: 'Lesson 5 Review',
-      content: 'Let\'s have a mini-quiz to review what we\'ve learned so far.',
-      imageUrl: 'images/quiz.png',),
+        content: 'Let\'s have a mini-quiz to review what we\'ve learned so far.',
+        imageUrl: 'images/quiz.png'),
   ],
+
   quizzes: [
     Quiz(
         id: 'c_quiz_5',
@@ -808,43 +854,56 @@ final Lesson c_lesson_6 = Lesson(
   title: 'C# Programming Input-Output Console',
   isCompleted: false,
   isOngoing: false,
-  topics: [
-    Topic(id: 'c_topic_6', title: 'Console',
-        content: 'The console is a window of the operating system that allows users to interact with programs. It is typically a black window that displays text information. It can print text strings, and the cursor moves to the right after each character is printed.',
-        imageUrl: 'images/ctopic6 (1).png'),
-    Topic(id: 'c_topic_6', title: 'User-Program Communication',
-        content: 'Many programs communicate with the user. This is necessary to allow users to give instructions to the program.\nModern communication methods include graphical interfaces, web-based interfaces, and consoles. The interaction typically involves text input from the standard input (usually the keyboard) and text output to the standard output (usually the screen). These are known as input-output operations.'),
-    Topic(id: 'c_topic_6', title: 'Console',
-        content: 'The console is one tool for communication between programs and users. However, it is becoming less commonly used due to more intuitive modern user interface concepts.'),
-    Topic(id: 'c_topic_6', title: 'When To Use The Console',
-        content: 'The console remains a useful tool for user communication, especially for writing small, simple programs or testing code segments in larger applications.\nIt is ideal when the focus is on solving a specific problem rather than on presenting the result in a polished interface.'),
-    Topic(id: 'c_topic_6', title: 'Operating System Shells',
-        content: "In Windows, the console is often associated with the system command interpreter, also called the 'Command Prompt' or 'shell'. It is a console-based program that provides access to system commands and programs included with or installed on the operating system."),
-    Topic(id: 'c_topic_6', title: 'Types of OS Shells',
-        content: 'CLI - Command Line Interface: A console for commands (cmd.exe in Windows, bash in Linux)\nGUI - Graphical User Interface: A graphical work environment (Windows Explorer, Linux File Managers)'),
-    Topic(id: 'c_topic_6', title: 'Standard Input, Standard Output, and Standard Error',
-        content: 'The operating system defines standard input-output mechanisms for user interaction. These mechanisms involve system code that opens and closes data streams when a program runs.\nStreams include standard input (Console.In), standard output (Console.Out), and standard error (Console.Error) in C#.'),
-    Topic(id: 'c_topic_6', title: 'Devices for Console Input',
-        content: 'The primary device for console input is the keyboard. However, input can also come from files, microphones, barcode readers, and other devices.',
-        imageUrl: 'images/ctopic6 (2).png'),
-    Topic(id: 'c_topic_6', title: 'Devices for Console Output',
-        content: 'Program output may be directed to the console (screen), to a file, or to other output devices such as a printer.',
-        imageUrl: 'images/ctopic6 (3).png'),
-    Topic(id: 'c_topic_6', title: 'Write() and WriteLine()',
-        content: 'The Write() and WriteLine() methods are used to print variables and literals. Write() prints the string as-is, while WriteLine() prints the string and moves to the next line.'),
-    Topic(id: 'c_topic_6', title: 'Example Standard Output',
-        content: '',
-        imageUrl: 'images/ctopic6 (4).png'),
-    Topic(id: 'c_topic_6', title: 'Read(), ReadKey(), and ReadLine()',
-        content: 'The Read(), ReadKey(), and ReadLine() methods read characters from standard input. Read() and ReadKey() stop after a key press, while ReadLine() stops after Enter is pressed. Read() returns an integer (ASCII code), and ReadKey() returns a ConsoleKeyInfo object.'),
-    Topic(id: 'c_topic_6', title: 'Example Standard Input',
-        content: '',
-        imageUrl: 'images/ctopic6 (5).png'),
-    Topic(id: 'c_topic_6', title: 'Lesson 6 Review',
-        content: 'Let\'s have a mini-quiz to review what we\'ve learned so far.',
-        imageUrl: 'images/quiz.png'),
-  ],
-  quizzes: [
+    topics: [
+      Topic(id: 'c_topic_6', title: 'Console',
+          content: 'The console is a window of the operating system that allows users to interact with programs. It is typically a black window that displays text information. It can print text strings, and the cursor moves to the right after each character is printed.',
+          imageUrl: 'images/ctopic6 (1).png'),
+
+      Topic(id: 'c_topic_6', title: 'User-Program Communication',
+          content: 'Many programs communicate with the user to allow instructions to be given. Modern communication methods include graphical interfaces, web-based interfaces, and consoles. Interaction typically involves text input from the standard input (usually the keyboard) and text output to the standard output (usually the screen). These are known as input-output operations.'),
+
+      Topic(id: 'c_topic_6', title: 'Console',
+          content: 'The console is one tool for communication between programs and users. However, it is becoming less commonly used due to more intuitive modern user interface concepts.'),
+
+      Topic(id: 'c_topic_6', title: 'When To Use The Console',
+          content: 'The console remains a useful tool for user communication, especially for writing small, simple programs or testing code segments in larger applications. It is ideal when the focus is on solving a specific problem rather than presenting results in a polished interface.'),
+
+      Topic(id: 'c_topic_6', title: 'Operating System Shells',
+          content: "In Windows, the console is often associated with the system command interpreter, also called the 'Command Prompt' or 'shell'. It is a console-based program that provides access to system commands and programs included with or installed on the operating system."),
+
+      Topic(id: 'c_topic_6', title: 'Types of OS Shells',
+          content: 'CLI - Command Line Interface: A console for commands (cmd.exe in Windows, bash in Linux)\nGUI - Graphical User Interface: A graphical work environment (Windows Explorer, Linux File Managers)'),
+
+      Topic(id: 'c_topic_6', title: 'Standard Input, Standard Output, and Standard Error',
+          content: 'The operating system defines standard input-output mechanisms for user interaction. These mechanisms involve system code that opens and closes data streams when a program runs. In C#, the streams include standard input (Console.In), standard output (Console.Out), and standard error (Console.Error).'),
+
+      Topic(id: 'c_topic_6', title: 'Devices for Console Input',
+          content: 'The primary device for console input is the keyboard. However, input can also come from files, microphones, barcode readers, and other devices.',
+          imageUrl: 'images/ctopic6 (2).png'),
+
+      Topic(id: 'c_topic_6', title: 'Devices for Console Output',
+          content: 'Program output may be directed to the console (screen), to a file, or to other output devices such as a printer.',
+          imageUrl: 'images/ctopic6 (3).png'),
+
+      Topic(id: 'c_topic_6', title: 'Write() and WriteLine()',
+          content: 'The Write() and WriteLine() methods are used to print variables and literals. Write() prints the string as-is, while WriteLine() prints the string and moves to the next line.'),
+
+      Topic(id: 'c_topic_6', title: 'Example Standard Output',
+          content: '',
+          imageUrl: 'images/ctopic6 (4).png'),
+
+      Topic(id: 'c_topic_6', title: 'Read(), ReadKey(), and ReadLine()',
+          content: 'The Read(), ReadKey(), and ReadLine() methods read characters from standard input. Read() and ReadKey() stop after a key press, while ReadLine() stops after Enter is pressed. Read() returns an integer (ASCII code), and ReadKey() returns a ConsoleKeyInfo object.'),
+
+      Topic(id: 'c_topic_6', title: 'Example Standard Input',
+          content: '',
+          imageUrl: 'images/ctopic6 (5).png'),
+
+      Topic(id: 'c_topic_6', title: 'Lesson 6 Review',
+          content: 'Let\'s have a mini-quiz to review what we\'ve learned so far.',
+          imageUrl: 'images/quiz.png'),
+    ],
+    quizzes: [
     Quiz(
         id: 'c_quiz_6',
         question: 'What does the WriteLine() method do?',
@@ -903,37 +962,43 @@ final Lesson c_lesson_7 = Lesson(
   title: 'Conditional Statements',
   isCompleted: false,
   isOngoing: false,
-  topics: [
-    Topic(id: 'c_topic_7', title: 'Introduction to Conditional Statements',
-        content: 'Conditional statements allow different blocks of code to execute based on specific conditions.',
-        imageUrl: 'images/ctopic7 (1).png'),
-    Topic(id: 'c_topic_7', title: 'IF Statement',
-        content: 'An if statement consists of a boolean expression followed by one or more statements. These statements are executed only if the boolean expression is true. An if statement can optionally be followed by an else statement, which executes when the expression is false.',
-        imageUrl: 'images/ctopic7 (2).png'),
-    Topic(id: 'c_topic_7', title: 'The ELSE IF Statement',
-        content: 'The else if statement is used to test additional conditions after the initial if condition evaluates to false. Each else if is checked in order until one evaluates to true.',
-        imageUrl: 'images/ctopic7 (3).png'),
-    Topic(id: 'c_topic_7', title: 'ELSE Statement',
-        content: 'The else statement runs a block of code if the if and else if conditions are all false.',
-        imageUrl: 'images/ctopic7 (4).png'),
-    Topic(id: 'c_topic_7', title: 'Nested IF Statements',
-        content: 'Nested if statements are if statements placed inside other if or else blocks, allowing more specific conditional logic.',
-        imageUrl: 'images/ctopic7 (5).png'),
-    Topic(id: 'c_topic_7', title: 'The Switch Block',
-        content: 'A switch block evaluates a variable and compares it to multiple case values. A break statement is typically used to exit each case.',
-        imageUrl: 'images/ctopic7 (6).png'),
-    Topic(id: 'c_topic_7', title: 'Ternary Operators',
-        content: 'A ternary operator provides a shorthand way to write simple if-else conditions. It takes three parts: a condition, a value if true, and a value if false.',
-        imageUrl: 'images/ctopic5 (10).png'),
-    Topic(
-      id: 'c_topic_7',
-      title: 'Common Conditional Pitfalls',
-      content: '1. Forgetting to use curly braces `{}` for multi-line if blocks.\n2. Using `=` (assignment) instead of `==` (equality) in conditions.\n3. Not including a `break` statement in switch cases.\n4. Overusing nested if statements, which can make code hard to read.',),
-    Topic(id: 'c_topic_7', title: 'Lesson 7 Review',
-      content: 'Let\'s have a mini-quiz to review what we\'ve learned so far.',
-      imageUrl: 'images/quiz.png',),
-  ],
-  quizzes: [
+    topics: [
+      Topic(id: 'c_topic_7', title: 'Introduction to Conditional Statements',
+          content: 'Conditional statements allow different blocks of code to execute depending on specific conditions.',
+          imageUrl: 'images/ctopic7 (1).png'),
+
+      Topic(id: 'c_topic_7', title: 'IF Statement',
+          content: 'An if statement consists of a boolean expression followed by one or more statements. These statements are executed only if the expression evaluates to true. An if statement can optionally be followed by an else statement, which executes when the expression is false.',
+          imageUrl: 'images/ctopic7 (2).png'),
+
+      Topic(id: 'c_topic_7', title: 'ELSE IF Statement',
+          content: 'The else if statement is used to test additional conditions after the initial if condition evaluates to false. Each else if is checked in order until one evaluates to true.',
+          imageUrl: 'images/ctopic7 (3).png'),
+
+      Topic(id: 'c_topic_7', title: 'ELSE Statement',
+          content: 'The else statement runs a block of code if the if and else if conditions are all false.',
+          imageUrl: 'images/ctopic7 (4).png'),
+
+      Topic(id: 'c_topic_7', title: 'Nested IF Statements',
+          content: 'Nested if statements are if statements placed inside other if or else blocks, allowing for more specific conditional logic.',
+          imageUrl: 'images/ctopic7 (5).png'),
+
+      Topic(id: 'c_topic_7', title: 'The Switch Block',
+          content: 'A switch block evaluates a variable and compares it to multiple case values. A break statement is typically used to exit each case.',
+          imageUrl: 'images/ctopic7 (6).png'),
+
+      Topic(id: 'c_topic_7', title: 'Ternary Operators',
+          content: 'The ternary operator provides a shorthand way to write simple if-else conditions. It has three parts: a condition, a value if true, and a value if false.',
+          imageUrl: 'images/ctopic5 (10).png'),
+
+      Topic(id: 'c_topic_7', title: 'Common Conditional Pitfalls',
+          content: '1. Forgetting to use curly braces `{}` for multi-line if blocks.\n2. Using `=` (assignment) instead of `==` (equality) in conditions.\n3. Not including a `break` statement in switch cases.\n4. Overusing nested if statements, which can make code difficult to read.'),
+
+      Topic(id: 'c_topic_7', title: 'Lesson 7 Review',
+          content: 'Let\'s have a mini-quiz to review what we\'ve learned so far.',
+          imageUrl: 'images/quiz.png'),
+    ],
+    quizzes: [
     Quiz(
         id: 'c_quiz_7',
         question: 'Which of the following is the correct syntax for an `if` statement in C#?',
@@ -1053,71 +1118,84 @@ final Lesson c_lesson_8 = Lesson(
       content: 'Loops in C# are used to repeatedly execute a block of code until a specified condition is met. They are essential for automating repetitive tasks and iterating over collections such as arrays or lists.',
       imageUrl: 'images/ctopic8 (1).png',
     ),
+
     Topic(
       id: 'c_topic_8',
       title: 'FOR Loop',
-      content: 'The `for` loop executes a block of code a specific number of times. It typically uses a loop variable that is initialized, evaluated in a condition, and updated each iteration until the condition is no longer true.',
+      content: 'The `for` loop executes a block of code a specific number of times. It typically uses a loop variable that is initialized, checked in a condition, and updated each iteration until the condition is no longer true.',
       imageUrl: 'images/ctopic8 (2).png',
     ),
+
     Topic(
       id: 'c_topic_8',
       title: 'FOR Loop',
       content: 'A `for` loop usually consists of three parts: initialization, condition, and iteration.\n\nSyntax:\nfor (initialization; condition; iteration)\n{\n    // Code to execute\n}',
     ),
+
     Topic(
       id: 'c_topic_8',
       title: 'FOREACH Loop',
-      content: 'The `foreach` loop is used to iterate over elements in a collection, such as an array or list. It automatically accesses each element without using an index variable.\n\nSyntax:\nforeach (var item in collection)\n{\n    // Code to execute\n}',
+      content: 'The `foreach` loop is used to iterate over elements in a collection, such as an array or list. It automatically accesses each element without requiring an index variable.\n\nSyntax:\nforeach (var item in collection)\n{\n    // Code to execute\n}',
     ),
+
     Topic(
       id: 'c_topic_8',
       title: 'while Loop',
       content: 'The `while` loop executes a block of code as long as the specified condition is true. The condition is evaluated before each iteration.\n\nSyntax:\nwhile (condition)\n{\n    // Code to execute\n}',
       imageUrl: 'images/ctopic8 (3).png',
     ),
+
     Topic(
       id: 'c_topic_8',
       title: 'while Loop',
       content: 'Syntax:\nwhile (condition)\n{\n    // Code to execute\n}',
     ),
+
     Topic(
       id: 'c_topic_8',
       title: 'do-while Loop',
-      content: 'The `do-while` loop is similar to the `while` loop, but it guarantees that the block of code is executed at least once because the condition is evaluated after the loop body.',
+      content: 'The `do-while` loop is similar to the `while` loop, but it guarantees that the block of code is executed at least once since the condition is evaluated after the loop body.',
       imageUrl: 'images/ctopic8 (4).png',
     ),
+
     Topic(
       id: 'c_topic_8',
       title: 'do-while Loop',
       content: 'Syntax:\ndo\n{\n    // Code to execute\n} while (condition);',
     ),
+
     Topic(
       id: 'c_topic_8',
       title: 'Nested Loops',
-      content: 'A nested loop is a loop placed inside another loop. They are commonly used for iterating over multi-dimensional arrays or for executing complex repetitive logic.',
+      content: 'A nested loop is a loop placed inside another loop. They are commonly used for iterating over multi-dimensional arrays or for executing more complex repetitive logic.',
       imageUrl: 'images/ctopic8 (5).png',
     ),
+
     Topic(
       id: 'c_topic_8',
       title: 'break Statement',
       content: 'The `break` statement is used to exit a loop prematurely. It immediately stops the loop and transfers control to the statement following the loop.\n\nSyntax:\nwhile (true)\n{\n    if (condition)\n    {\n        break; // Exit the loop\n    }\n}',
     ),
+
     Topic(
       id: 'c_topic_8',
       title: 'continue Statement',
       content: 'The `continue` statement skips the current iteration of the loop and proceeds to the next iteration.\n\nSyntax:\nfor (int i = 0; i < 10; i++)\n{\n    if (i % 2 == 0)\n    {\n        continue; // Skip even numbers\n    }\n    // Code to execute\n}',
     ),
+
     Topic(
       id: 'c_topic_8',
       title: 'Infinite Loops',
       content: 'An infinite loop occurs when the loop condition never becomes false. This can cause a program to hang or crash. It is important to ensure that loop conditions will eventually be met.\n\nExample:\nwhile (true)\n{\n    // Code to execute indefinitely\n}',
       imageUrl: 'images/ctopic8 (8).png',
     ),
+
     Topic(
       id: 'c_topic_8',
       title: 'Common Pitfalls',
-      content: '1. Forgetting to update the loop variable, leading to infinite loops.\n2. Using the wrong loop type for the task.\n3. Misusing `break` and `continue`, which can make code harder to read.\n4. Overusing nested loops, which can reduce performance.',
+      content: '1. Forgetting to update the loop variable, leading to infinite loops.\n2. Using the wrong loop type for the task.\n3. Misusing `break` and `continue`, which can make code harder to follow.\n4. Overusing nested loops, which can reduce performance.',
     ),
+
     Topic(
       id: 'c_topic_8',
       title: 'Lesson 8 Review',
@@ -1125,6 +1203,7 @@ final Lesson c_lesson_8 = Lesson(
       imageUrl: 'images/quiz.png',
     ),
   ],
+
   quizzes: [
     Quiz(
       id: 'c_quiz_8',
@@ -1212,70 +1291,82 @@ final Lesson c_lesson_9 = Lesson(
       content: 'A method in C# is a block of code that performs a specific task. It has a name, a return type, and optional parameters. Methods help organize code, improve reusability, and make programs easier to maintain.',
       imageUrl: 'images/ctopic9 (1).png',
     ),
+
     Topic(
       id: 'c_topic_9',
       title: 'Defining a Method',
       content: 'A method is defined using the following syntax:\n\nreturnType MethodName(parameters)\n{\n    // Method body\n}',
       imageUrl: 'images/ctopic9 (2).png',
     ),
+
     Topic(
       id: 'c_topic_9',
       title: 'Method Parameters',
       content: 'Parameters are variables passed to a method to provide input. They are defined in the method signature and can be used within the method body. Multiple parameters can be declared by separating them with commas. When calling a method with parameters, the number and types of arguments must match.',
       imageUrl: 'images/ctopic9 (3).png',
     ),
+
     Topic(
       id: 'c_topic_9',
       title: 'Default Method Parameters',
-      content: 'Calling a method without providing required parameters may cause an error. Default parameters can be assigned using the equals sign (=). Methods with default parameters can be called without passing arguments.',
+      content: 'Calling a method without required parameters may cause an error. Default parameters can be assigned using the equals sign (=). Methods with default parameters can be called without explicitly passing arguments.',
       imageUrl: 'images/ctopic9 (4).png',
     ),
+
     Topic(
       id: 'c_topic_9',
       title: 'Return Values',
-      content: 'The `return` keyword is used to return a value from a method. The value must match the return type specified in the method signature, such as int, double, or string.',
+      content: 'The `return` keyword is used to return a value from a method. The returned value must match the return type specified in the method signature, such as `int`, `double`, or `string`.',
       imageUrl: 'images/ctopic9 (5).png',
     ),
+
     Topic(
       id: 'c_topic_9',
       title: 'Void Methods',
       content: 'A `void` method does not return a value. It is used when the method performs an action without producing a result.',
       imageUrl: 'images/ctopic9 (6).png',
     ),
+
     Topic(
       id: 'c_topic_9',
       title: 'Method Overloading',
-      content: 'Method overloading allows you to define multiple methods with the same name but different parameters. The method executed depends on the number and types of arguments passed.',
+      content: 'Method overloading allows you to define multiple methods with the same name but different parameters. The method that executes depends on the number and types of arguments passed.',
       imageUrl: 'images/ctopic9 (7).png',
     ),
+
     Topic(
       id: 'c_topic_9',
       title: 'Encapsulation',
-      content: 'Encapsulation is a key concept in object-oriented programming that restricts direct access to an object\'s data and methods. It is implemented using access modifiers like `private`, `public`, and `protected`.',
+      content: 'Encapsulation is a key concept in object-oriented programming that restricts direct access to an object\'s data and methods. It is implemented using access modifiers such as `private`, `public`, and `protected`.',
       imageUrl: 'images/ctopic9 (8).png',
     ),
+
     Topic(
       id: 'c_topic_9',
       title: 'Access Modifiers',
       content: 'Access modifiers control the visibility of classes, methods, and fields. The common access modifiers are:\n\n- `public`: Accessible from anywhere.\n- `private`: Accessible only within the same class.\n- `protected`: Accessible within the same class and derived classes.\n- `internal`: Accessible within the same assembly.',
     ),
+
     Topic(
       id: 'c_topic_9',
       title: 'Properties',
       content: 'Properties provide controlled access to private fields using `get` and `set` accessors.',
       imageUrl: 'images/ctopic9 (9).png',
     ),
+
     Topic(
       id: 'c_topic_9',
       title: 'Auto-Implemented Properties',
       content: 'Auto-implemented properties simplify property declarations by automatically creating a private backing field. They use the shorthand syntax: { get; set; }.',
       imageUrl: 'images/ctopic9 (10).png',
     ),
+
     Topic(
       id: 'c_topic_9',
       title: 'Common Pitfalls',
-      content: '1. Forgetting to specify a return type for non-void methods.\n2. Overloading methods with ambiguous parameter lists.\n3. Exposing private fields directly without using properties.\n4. Using incorrect access modifiers, leading to unintended access levels.',
+      content: '1. Forgetting to specify a return type for non-void methods.\n2. Overloading methods with ambiguous parameter lists.\n3. Exposing private fields directly instead of using properties.\n4. Using incorrect access modifiers, leading to unintended access levels.',
     ),
+
     Topic(
       id: 'c_topic_9',
       title: 'Lesson 9 Review',
@@ -1363,60 +1454,70 @@ final Lesson c_lesson_10 = Lesson(
   title: 'Arrays',
   isCompleted: false,
   isOngoing: false,
-  topics: [
-    Topic(
-      id: 'c_topic_10',
-      title: 'Introduction to Arrays',
-      content: 'An array in C# is a collection of elements of the same type stored in contiguous memory locations. Arrays are useful for storing multiple values in a single variable and accessing them using an index.',
-      imageUrl: 'images/ctopic10 (1).png',
-    ),
-    Topic(
-      id: 'c_topic_10',
-      title: 'Declaring and Initializing Arrays',
-      content: 'Arrays can be declared and initialized in several ways:\n\n1. Single-dimensional array:\nint[] numbers = new int[5];\n2. With initial values:\nint[] numbers = { 1, 2, 3, 4, 5 };\n3. Multi-dimensional array:\nint[,] matrix = new int[3, 3];',
-    ),
-    Topic(
-      id: 'c_topic_10',
-      title: 'Accessing Array Elements',
-      content: 'Array elements are accessed using their index. The index starts at 0 for the first element.\n\nExample:\nint[] numbers = { 10, 20, 30, 40, 50 };\nConsole.WriteLine(numbers[2]); // Output: 30',
-      imageUrl: 'images/ctopic10 (2).png',
-    ),
-    Topic(
-      id: 'c_topic_10',
-      title: 'Modifying Array Elements',
-      content: 'Array elements can be modified by assigning a new value to a specific index.\n\nExample:\nnumbers[1] = 25;',
-      imageUrl: 'images/ctopic10 (3).png',
-    ),
-    Topic(
-      id: 'c_topic_10',
-      title: 'Array Length',
-      content: 'The `Length` property of an array returns the total number of elements in the array.\n\nExample:\nint[] numbers = { 1, 2, 3, 4, 5 };\nConsole.WriteLine(numbers.Length); // Output: 5',
-      imageUrl: 'images/ctopic10 (4).png',
-    ),
-    Topic(
-      id: 'c_topic_10',
-      title: 'Iterating Over Arrays',
-      content: 'Arrays can be iterated using loops such as `for`, `foreach`, or `while`.',
-      imageUrl: 'images/ctopic10 (5).png',
-    ),
-    Topic(
-      id: 'c_topic_10',
-      title: 'Common Array Methods',
-      content: 'C# provides several built-in methods for working with arrays:\n\n- `Array.Sort()`: Sorts the elements in an array.\n- `Array.Reverse()`: Reverses the order of elements in an array.\n- `Array.IndexOf()`: Finds the index of a specific element.',
-    ),
-    Topic(
-      id: 'c_topic_10',
-      title: 'Common Pitfalls',
-      content: '1. Accessing an index outside the bounds of the array (causing an `IndexOutOfRangeException`).\n2. Forgetting to initialize the array before using it.\n3. Using an inappropriate loop type for array traversal.',
-    ),
-    Topic(
-      id: 'c_topic_10',
-      title: 'Lesson 10 Review',
-      content: "Let's have a mini-quiz to review what we've learned so far.",
-      imageUrl: 'images/quiz.png',
-    ),
-  ],
-  quizzes: [
+    topics: [
+      Topic(
+        id: 'c_topic_10',
+        title: 'Introduction to Arrays',
+        content: 'An array in C# is a collection of elements of the same type stored in contiguous memory locations. Arrays are useful for storing multiple values in a single variable and accessing them using an index.',
+        imageUrl: 'images/ctopic10 (1).png',
+      ),
+
+      Topic(
+        id: 'c_topic_10',
+        title: 'Declaring and Initializing Arrays',
+        content: 'Arrays can be declared and initialized in several ways:\n\n1. Single-dimensional array:\nint[] numbers = new int[5];\n\n2. With initial values:\nint[] numbers = { 1, 2, 3, 4, 5 };\n\n3. Multi-dimensional array:\nint[,] matrix = new int[3, 3];',
+      ),
+
+      Topic(
+        id: 'c_topic_10',
+        title: 'Accessing Array Elements',
+        content: 'Array elements are accessed using their index. The index starts at 0 for the first element.\n\nExample:\nint[] numbers = { 10, 20, 30, 40, 50 };\nConsole.WriteLine(numbers[2]); // Output: 30',
+        imageUrl: 'images/ctopic10 (2).png',
+      ),
+
+      Topic(
+        id: 'c_topic_10',
+        title: 'Modifying Array Elements',
+        content: 'Array elements can be modified by assigning a new value to a specific index.\n\nExample:\nint[] numbers = { 10, 20, 30 };\nnumbers[1] = 25; // Changes second element to 25',
+        imageUrl: 'images/ctopic10 (3).png',
+      ),
+
+      Topic(
+        id: 'c_topic_10',
+        title: 'Array Length',
+        content: 'The `Length` property of an array returns the total number of elements in the array.\n\nExample:\nint[] numbers = { 1, 2, 3, 4, 5 };\nConsole.WriteLine(numbers.Length); // Output: 5',
+        imageUrl: 'images/ctopic10 (4).png',
+      ),
+
+      Topic(
+        id: 'c_topic_10',
+        title: 'Iterating Over Arrays',
+        content: 'Arrays can be iterated using loops such as `for`, `foreach`, or `while`.',
+        imageUrl: 'images/ctopic10 (5).png',
+      ),
+
+      Topic(
+        id: 'c_topic_10',
+        title: 'Common Array Methods',
+        content: 'C# provides several built-in methods for working with arrays:\n\n- `Array.Sort()`: Sorts the elements in an array.\n- `Array.Reverse()`: Reverses the order of elements in an array.\n- `Array.IndexOf()`: Finds the index of a specific element.',
+      ),
+
+      Topic(
+        id: 'c_topic_10',
+        title: 'Common Pitfalls',
+        content: '1. Accessing an index outside the bounds of the array, which causes an `IndexOutOfRangeException`.\n2. Forgetting to initialize the array before using it.\n3. Using an inappropriate loop type for array traversal.',
+      ),
+
+      Topic(
+        id: 'c_topic_10',
+        title: 'Lesson 10 Review',
+        content: "Let's have a mini-quiz to review what we've learned so far.",
+        imageUrl: 'images/quiz.png',
+      ),
+    ],
+
+
+    quizzes: [
     Quiz(
         id: 'c_quiz_10',
         question: 'What is an array in C#?',
